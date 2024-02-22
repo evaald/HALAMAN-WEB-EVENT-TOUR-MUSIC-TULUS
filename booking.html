@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulus Tour</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="reserve-booking" style="background: #dbd8e3">
+        <h1 class="fw-bold fst-italic p-3">Reserve Here</h1>
+        <div>
+            <form>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Enter your NIK</label>
+                    <input type="username" class="form-control" id="exampleInputUsername" aria-describedby="usernameHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your NIK with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Enter the Ticket Orderer's Name</label>
+                    <input type="username" class="form-control" id="exampleInputUsername" aria-describedby="usernameHelp">
+                    <div id="emailHelp" class="form-text">Match the name on your KTP</div>
+                </div>
+                <div class="mb-3">
+                    <label for="select" class="form-label">Select Concert Day</label>
+                    <select class="form-select" aria-label="Default select example" >
+                        <option selected>Open this select menu</option>
+                        <option value="1">Day 1</option>
+                        <option value="2">Day 2</option>
+                      </select>
+                </div>
+                <div class="mb-3">
+                    <label for="select" class="form-label">Select Your Place</label>
+                    <select class="form-select" aria-label="Default select example" >
+                        <option selected>Open this select menu</option>
+                        <option value="1">VVIP</option>
+                        <option value="2">Festival 1</option>
+                        <option value="2">Festival 2</option>
+                      </select>
+                </div>
+                <div class="mb-3">
+                    <label for="select" class="form-label">Select Number of Tickets</label><br>
+                    <input type="number" min="1" max="5" class="p-1"/>
+                </div>       
+                <div class="p-3">
+                    <a href="succes-booking.html" type="submit" class="btn btn-primary btn-lg fw-bold fst-italic">Submit</a> 
+                </div>          
+              </form>
+        </div>
+    </div>
+</body>
+</html>
