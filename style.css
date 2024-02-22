@@ -24,17 +24,18 @@
   .navbar-2 a {
     color: aliceblue;
   }
+
+  .nav-image img {
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+
+}
   
   .content {
     padding: 100px 100px 0px 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content : center;
-    text-align : center;
-  }
-
-  .content-kosong {
-    padding: 42vh;
     display: flex;
     flex-direction: column;
     justify-content : center;
@@ -54,7 +55,41 @@
     justify-content : center;
     
   }
-  
+
+  .reserve-register {
+    margin: 20px;
+    padding: 40px;
+    border: #2a2438;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    text-align : center;
+  }
+
+
+  .reserve-booking {
+    margin: 20px;
+    padding: 40px;
+    border: #2a2438;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    text-align : center;
+  }
+
+  .succes-booking {
+    margin: 35px;
+    padding: 100px;
+    border: #2a2438;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    text-align : center;
+  }
+
   .footer {
     padding : 15px;
     background: #5c5470; 
